@@ -1,0 +1,19 @@
+﻿# Configuración local de Obsidian (evita conflictos de sincronización)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace-*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Excluir binarios y dependencias pesadas dentro de las carpetas de Proyectos
+**/Proyectos/**/node_modules/
+**/Proyectos/**/vendor/
+**/Proyectos/**/*.env
+**/Proyectos/**/target/
+**/Proyectos/**/out/
+
+node_modules/
+.pnpm-store/
